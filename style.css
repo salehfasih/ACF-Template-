@@ -1,0 +1,702 @@
+/*
+Theme Name: UnderStrap Child
+Theme URI: https://wp-themes.com/understrap
+Author: ChildThemeWP.com
+Author URI: https://childthemewp.com
+Description: My WordPress UnderStrap child theme.
+Template: understrap
+License: GNU General Public License v3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0.0
+Text Domain: understrap-child
+*/
+
+
+
+/* header background  */
+#wrapper-navbar #main-nav{
+    background-color:transparent !important;
+
+}
+div#wrapper-footer{
+    border-bottom: 1px solid #2a2929 !important;
+}
+.footer{
+    background: black;
+}
+
+.footer .bottom-para span{
+    font-size: 14.2px;
+    line-height: 17px;
+}
+div#wrapper-footer .menu li{
+    list-style: none;
+    color: white;
+    margin-top: 15px;
+}
+figure#bottom-logo::after{
+    border-right: 1px solid #707070;
+    content: '';
+    width: 1px;
+    height: 46px;
+    display: block;
+    position: relative;
+    left: 108%;
+    top: -55px;
+}
+
+div#wrapper-footer .menu li a{
+    
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+div#wrapper-footer .wp-block-button__link {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 500; 
+}
+#wrapper-navbar .navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login{
+
+    border-radius: 2px;
+    text-align: center;
+     
+}
+.login .nav-link{
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+.applybtn{
+    text-align: center;
+    margin-left: 8px;
+
+}
+.applybtn .nav-link{
+    background-color:#FF914D;
+    border-radius: 2px;
+    
+    padding: 11px;
+    
+}
+
+.page_title .container{
+    padding:0px 0px 68px 0px ;
+    max-width: 1140px !important;
+
+}
+.page_title .container .understrap-page-title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 44px;
+  color: white;    
+}
+
+#wrapper-navbar{
+    background-image: url('./assets/images/Hero.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#wrapper-navbar .container{
+    max-width: 1600px;
+}
+
+
+.hero-head h1{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 44px;
+    color: white;
+    width: 96%;
+}
+
+.hero-section ul li::before{
+    content: url('http://project1.test/wp-content/uploads/2021/11/Path.png');
+    transform: scale(.5);
+    padding-right: 20px;
+}
+.hero-section ul li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 38px;
+}
+.hero-section{
+    background-image: url('./assets/images/Hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div#form1 {
+    z-index: 2;
+    box-shadow: 1px 4px 16px -3px #dfdeded5;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: -78px;
+    padding: 30px 30px 0px;
+}
+#form1 .gravity-theme select {
+    border: 1px solid #979797;
+    border-radius: 4px;
+    padding: 17px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+
+
+/* messege style */
+.output {
+    padding: 4px 10px 15px 20px;
+    background: #FFF9F9;
+    border-radius: 4px;
+}
+
+.output .sub-title p {
+    text-decoration-color: #979797 !important;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    line-height: 28px;
+    padding-top: 15px;
+}
+
+.sub-title p:nth-child(3){
+
+    text-decoration: none;
+}
+.earnings-heading p{
+    color: #623519;
+    line-height: 18px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.output .output_heading p {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    line-height: 14px;
+    display: flex;
+    width: 13%;
+    padding-top: 10px;
+   text-decoration: none;
+}
+.output .suffix {
+    margin-top: -6px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    margin-left: 6px;
+}
+
+
+.btn1 button {
+    background: #FF863C;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 16px 50px 16px 50px;
+    border-radius: 4px;
+    width: 100%;
+}
+.btn2 button {
+    border:2px solid #FF863C;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 16px 50px 16px 50px;
+    border-radius: 4px;
+    color: #FF863C;
+    background: white;
+    width: 100%;
+
+}
+
+.form1_wrapper h2.gform_title{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#form1 .gfield_label{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Open Sans';
+
+}
+#form1  #horizonal{
+    border-top: 1px solid #F2E0E0;
+}
+
+#form1 #earning{
+    display: flex;
+    align-items: flex-end;
+}
+
+.output .sub-title p:nth-child(2){
+    border: none !important;
+}
+
+.note{
+    font-size: 14px;
+    color: #898989;
+    line-height: 17px;
+    display: flex;
+    padding-top: 12px !important;
+
+}
+#form1 .gform_footer{
+    display: none  !important;
+}
+#form1 span.gfield_required.gfield_required_text{
+    color: white;
+}
+#form1 span.gfield_required.gfield_required_text:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: black;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+#form1  input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #BFBFBF;
+}
+
+
+#form1  input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #FF863C;
+}
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.section1 h1,.section4  h1,.ws-section1 h1,.or-section1 h1,.or-support-team h1,.help-form h1.got
+{
+    color: #FF863C;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    width: 76%;
+}
+
+
+.wwa-section1 h1,.faq-section1 h1,.help-form h1{
+    color: #FF863C;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    width: 73%;
+}
+.section1{
+    padding-top: 20px;
+}
+.section1 h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+}
+.section1 p ,.ws-section1 p{
+    color: #898989;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: 'Open Sans';
+   line-height: 26px;
+   width: 88%;
+
+}
+.wwa-section1 p,.wwa-section1 li,.wwa-section2 li,.faq-section1 p{
+    width: 74%;
+    font-size: 14px;
+   font-weight: 400;
+   font-family: 'Open Sans';
+   line-height: 24px;
+   color: #333333;
+
+}
+.faq-section1 p{
+    width:100%;
+}
+.wwa-section2 li{
+    width: 92%;
+}
+
+.wwa-section2 p{
+    width: 90%;
+    font-size: 14px;
+   font-weight: 400;
+   font-family: 'Open Sans';
+   line-height: 24px;
+   color: #333333;
+}
+
+.sub_section .sub_content{
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 26px;
+    padding-right: 80px;
+    
+
+}
+.sub_section {
+    padding-top: 31px;}
+.sub_section .support2{
+    padding-right: 50px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    width: 88%;
+}
+.sub_section .col-xl-12 {
+    margin: 0px;
+    padding: 0px;
+}
+.ws-section1 p{
+padding-right: 75px;
+}
+.icon-box {
+   
+        padding: 80px 0px 120px 0px;
+    
+}
+.icon-box h1{
+    color: #FF863C;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 10px;
+}
+.icon-box  #icon  {
+   text-align: center;
+}
+.icon-box p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 26px;
+
+}
+.section3{
+    padding-bottom: 80px;
+}
+
+.section3  h1{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 60px;
+    padding-top: 50px;
+    max-width: 74%;;
+
+}
+.section4 p{
+    padding-right: 88px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 30px;
+}
+.section4 #sec4_img{
+    text-align: right;
+}
+
+.section4 #sec4_img2 {
+    text-align: center;
+    margin: 11px -19px -5px -33px;
+}
+
+.section4 #sec4_img2::after{
+    content: '';
+    height: 34px;
+    width: 2px;
+    display: block;
+    background: #BEBEBE;
+    position:absolute;
+    top: 68px;
+    left: 69px;
+}
+/* .section4{
+    padding-bottom: 146px;
+} */
+.section4 #passion img{
+     margin-top: 78px;
+     width: 85%;
+}
+.section4 #passion2 img{
+    margin-top: 117px;
+    width: 96%;
+}
+.section5-back{
+    padding: 60px 60px 60px 200px;
+    background: #FF863C;
+}
+
+.section5-back h1{
+    width: 55%;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    color: white;
+}
+.section5-back .seen{
+    padding: 60px 0px 0px 0px;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+
+}
+.image-gallary  div{
+    margin: auto 19px;
+}
+.image-gallary   .img1{
+text-align: left !important;
+}
+
+.before:before{
+    content:'';
+    background: url('./assets/images/dots.png'); /*url of image*/
+    height: 266px; /*height of image*/
+    width: 206px;  /*width of image*/
+    height: 206px !important;
+    width: 206px !important;
+   position: relative;
+   right: -65%;
+   top: 125px;
+   display: block;
+}
+
+.ws-section1 h2,.wwa-section1  h2{
+
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 20px;
+    line-height: 36px;
+    width: 73%;
+}
+.faq-section1 h2{
+    font-weight: 500;
+    font-family: 'Open Sans';
+    color: black;
+    font-size: 15px;
+    line-height: 36px;
+    width: 73%;
+
+}
+
+.ws-section1 #image-bottom{
+    margin: auto 0px 0px;
+}
+
+
+.my_btn button{
+
+    background: #FF914D;border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    text-align: left;
+    padding: 15px 110px 15px 10px;
+    border-radius: 2px;
+
+
+}
+.my_btn button::before{
+    content: url('./images/Fill-35.png');
+    position: relative;
+    left: 180px;
+}
+
+
+.or-section1 p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: black;
+    line-height: 36px;
+    width: 82%;
+}
+
+
+.or-support-team .image-box {
+    text-align: center;
+}
+#image-top .img1{
+    padding-top: 34px;
+    margin-left: -100px;
+}
+#image-top .img2 {
+    padding-top: 70px;
+}
+
+.wwa-section1 #img-para{
+    margin-left: -40px;
+    width: 75% !important;
+    margin-top: 52px;
+}
+.wwa-section1 .sky-head{
+   
+    background:#f8f7ff;
+    padding: 45px;
+    margin-top: 60px;
+}
+.wwa-para1{
+    padding-top: 30px;
+}
+ 
+.wwa-section2 p.dark-para{
+    font-weight: bold;
+}
+
+.plus-sign .plus i{
+    font-family: FontAwesome;
+   content: "\f067";
+   display: inline-block;
+   color: #FF863C;
+   position: relative;
+   left: 500px;
+   top: -42px;
+
+}
+
+
+ul.accordion-list li{
+    padding: 16px 0px 16px 0px;
+    list-style: none;
+    border-bottom: 1px solid #D8D8D8;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul.accordion-list li.active h3:after {
+    font-family: FontAwesome;
+    display: inline-block;
+     content: "\f068";
+}
+ul.accordion-list li h3 {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: black;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+}
+ul.accordion-list li h3:after {
+    font-family: FontAwesome;
+   display: inline-block;
+    content: "\f067";
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FF863C;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+}
+ul.accordion-list li div.answer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+ul.accordion-list li div.answer p {
+    position: relative;
+    display: block;
+    font-weight: 400;
+    padding: 10px 0 0 0;
+    cursor: pointer;
+    line-height: 150%;
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    font-family: 'Open Sans';
+
+}
+.accordion-list   h3{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: black;
+}
+.faq-section2 {
+    padding-top: 50px;
+}
+.ws-section1,.or-section1,.faq-section1,.wwa-section1 {
+    padding-top: 30px;
+}
